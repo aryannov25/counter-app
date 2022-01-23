@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.f1 {
+  font-size: 80px;
+}
+
+.f2 {
+  font-size: 60px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 144px;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+}
