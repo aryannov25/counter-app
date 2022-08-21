@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 15%;
+  max-width: 100%;
+}
+
+.f1 {
+  font-size: 80px;
+}
+
+.f2 {
+  font-size: 60px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 144px;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+body{
+  background-image: url("station.jpg");
+  background-size: cover;
+  height: 70vh;  
+}
