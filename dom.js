@@ -1,5 +1,5 @@
 let counter = 0;
-let savehis = document.getElementById("history")
+let saveHis = document.getElementById("history")
 
 add = () => {
 
@@ -17,7 +17,7 @@ drec = () => {
 save = () => {
 
     count = counter + " , "
-    savehis.textContent += count
+    saveHis.textContent += count
    
     counter = 0
     document.getElementById("counter").innerHTML = counter;
@@ -26,7 +26,7 @@ save = () => {
 
 reset = () => {
 his = "History: "
-    savehis.textContent = his
+    saveHis.textContent = his
     counter = 0
     document.getElementById("counter").innerHTML = counter;
 }
